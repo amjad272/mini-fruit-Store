@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Contractors;
+namespace App\Contracts;
 
 interface ProductRepositoryInterface
 {

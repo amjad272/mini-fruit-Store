@@ -43,7 +43,7 @@ class fruitListController extends Controller
         return response()->json($this->productService->updateProduct($data, $id), 200);
     }
 
-    public function delete($id)
+    public function destroy($id)
     {
         $this->productService->deleteProduct($id);
         return response()->json(['message' => 'Product deleted successfully']);

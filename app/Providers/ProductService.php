@@ -2,7 +2,7 @@
 
 namespace App\Providers;
 
-use App\Contractors\ProductRepositoryInterface;
+use App\Contracts\ProductRepositoryInterface;
 use App\Repositories\ProductRepository;
 
 class ProductService
